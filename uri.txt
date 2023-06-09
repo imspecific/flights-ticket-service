@@ -1,0 +1,19 @@
+
+
+http://localhost:8100/poc-ticket-service/find-flight-by-id/201/user1/password
+
+http://localhost:8100/poc-ticket-service/flights-by-source-destination/Hyderabad/Prayagraj/user1/password
+
+http://localhost:8100/poc-ticket-service/book-ticket/201/user1/password
+{
+    "ticketId": 107,
+    "source": "Hyderabad",
+    "destination": "Prayagraj",
+    "noOfPax": 3,
+    "departureDate": "22-02-2023",
+    "userName": "user1",
+    "password": "password"
+}
+
+http://localhost:8100/poc-ticket-service/cancel-booked-ticket-by-id/5/user1/password
+Ticket canceled.
